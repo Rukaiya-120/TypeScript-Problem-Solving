@@ -1,0 +1,29 @@
+{
+  "name": "typescript-assignment-batch18",
+  "version": "1.0.0",
+  "description": "TypeScript Programming Assignment - Batch 18",
+  "scripts": {
+    "01": "ts-node src/01-max-second-max.ts",
+    "02": "ts-node src/02-sum-primes.ts",
+    "03": "ts-node src/03-unique-sum.ts",
+    "04": "ts-node src/04-missing-number.ts",
+    "05": "ts-node src/05-count-occurrence.ts",
+    "06": "ts-node src/06-repetitive-elements.ts",
+    "07": "ts-node src/07-unique-characters.ts",
+    "08": "ts-node src/08-permutations.ts",
+    "09": "ts-node src/09-random-password.ts",
+    "10": "ts-node src/10-remove-special-chars.ts",
+    "11": "ts-node src/11-remove-vowels.ts",
+    "12": "ts-node src/12-valid-binary.ts",
+    "13": "ts-node src/13-discount-calculator.ts",
+    "14": "ts-node src/14-currency-breakdown.ts",
+    "15": "ts-node src/15-mark-questions.ts",
+    "build": "tsc",
+    "all": "for f in src/*.ts; do echo \"--- $f ---\"; ts-node \"$f\"; done"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.11.0"
+  }
+}
