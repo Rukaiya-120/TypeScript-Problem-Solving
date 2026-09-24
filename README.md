@@ -1,4 +1,4 @@
-# TypeScript Programming — Batch 18
+# TypeScript Programming
 
 Solutions to the 15 TypeScript problem-solving exercises for Batch 18.
 
